@@ -16,8 +16,8 @@ export const  DreamsList = ({
     <div className="dream__block">
       <div className="dream__list">
         {isLoading ? (
-          <div className="wrapper-loader">
-            <div className="loader"></div>
+          <div className="wrapper-loader ">
+            <div className="loader loader--white"></div>
           </div>
         ) : dreams.length === 0 ? (
           <div className="dream__no">Мрії не знайдено</div>

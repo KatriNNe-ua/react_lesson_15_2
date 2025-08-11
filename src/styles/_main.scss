@@ -147,13 +147,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 height: 70svh;
+
 }
 .loader {
   --d:30px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  color: #bfdbfc;
+  color: #2a8af8;
   box-shadow: 
     calc(1*var(--d))      calc(0*var(--d))     0 0,
     calc(0.707*var(--d))  calc(0.707*var(--d)) 0 1px,
@@ -163,6 +164,7 @@ height: 70svh;
     calc(-0.707*var(--d)) calc(-0.707*var(--d))0 5px,
     calc(0*var(--d))      calc(-1*var(--d))    0 6px;
   animation: l27 1s infinite steps(8);
+
 }
 @keyframes l27 {
   100% {transform: rotate(1turn)}
